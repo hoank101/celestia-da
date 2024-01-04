@@ -13,7 +13,7 @@ require (
 	github.com/ipfs/go-log/v2 v2.5.1
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/ory/dockertest/v3 v3.10.0
-	github.com/rollkit/go-da v0.0.0-20231024133951-57bc36006772
+	github.com/rollkit/go-da v0.0.1
 	github.com/spf13/cobra v1.8.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.4
@@ -352,5 +352,3 @@ replace (
 )
 
 replace github.com/celestiaorg/celestia-node => github.com/celestiaorg/celestia-node v0.12.1-0.20231123165236-dd3b8e1411de
-
-replace github.com/rollkit/go-da => github.com/rollkit/go-da v0.0.0-20231219014301-ae60407a94ac
